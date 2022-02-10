@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Verificador de idade</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Verificador de Idade</h1>
+        </header>
+
+        <section>
+            <div>
+                <form id="form">
+                    <label for="birthDate">Ano de Nascimento: </label>
+                    <input id="birthDate" type="number" />
+                    <br />
+                    <label for="">Sexo: </label>
+                    <input
+                        type="radio"
+                        name="sex"
+                        id="masculine"
+                        value="masculine"
+                        checked
+                    />
+                    <label for="masculine">Masculino</label>
+
+                    <input
+                        type="radio"
+                        name="sex"
+                        value="feminine"
+                        id="feminine"
+                    />
+                    <label for="wolman">Feminino</label>
+                    <br />
+                    <input id="btn" type="Button" value="Verificar" />
+                </form>
+            </div>
+            <div id="result">Preencha os dados acima para ver o resultado!</div>
+        </section>
+
+        <footer>
+            <a target="_blank" href="https://github.com/exodogurgel/">
+                <p>&copy; exodogurgel</p>
+            </a>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
